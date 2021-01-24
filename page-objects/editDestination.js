@@ -6,15 +6,15 @@ const randomNumberBetweenOneAnd = require('../utils/randomNumberBetweenOneAndN')
 const { browser } = require('protractor')
 
 class EditDestionation {
-    constructor() {
-        this.self = new DestinationComponent()
-        this.form = new FormComponent()
-        this.header = new HeaderComponent()
-    }
+  constructor () {
+    this.self = new DestinationComponent()
+    this.form = new FormComponent()
+    this.header = new HeaderComponent()
+  }
 
-    visit() {
-        browser.get(`/destinations/${randomNumberBetweenOneAnd(15)}/edit`)
-    }
+  visit () {
+    browser.get(`/destinations/${randomNumberBetweenOneAnd(15)}/edit`)
+  }
 }
 
 module.exports = EditDestionation
