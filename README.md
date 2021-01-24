@@ -13,8 +13,8 @@ It's necessary these follow systems:
 
 ## Installing
 - Clone this project in your directory
-- In the directory, run 'npm install'. It installs the project dependencies
+- In the directory, run `npm install`. It installs the project dependencies
 
 ## Running tests
-- Run 'npm run pretest:local && npm test' command line to run all tests as headless mode, Chrome and Firefox
-- Run "npm run 'test:chrome'" or "npm run 'test:firefox'" to run in specific browser
+- Run `npm run pretest:local && npm test` command line to run all tests as headless mode, Chrome and Firefox
+- Run `npm run 'test:chrome'` or `npm run 'test:firefox'` to run in specific browser
