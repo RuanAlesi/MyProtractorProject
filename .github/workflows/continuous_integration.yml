@@ -10,7 +10,5 @@ jobs:
         uses: actions/setup-node@v2
       - name: Installation of dependencies
         run: npm ci
-      - name: Lint
-        run: npm run lint
       - name: E2E tests
         run: npm run pretest:github && npm test
